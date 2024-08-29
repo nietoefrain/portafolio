@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Efrain</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portafolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre Mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- Introducción -->
+      <section id="about" class="text-center p-5">
+        <div class="container">
+          <h1 class="typing">Hola, soy Efrain!</h1>
+          <p class="fade-in" id="hoverText">
+            Estudiante Bootcamp Desarrollo de Aplicaciones Stack Python
+          </p>
+        </div>
+      </section>
+
+      <!-- Proyectos con Carousel y Modals -->
+      <section id="projects" class="p-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-5">Mis Proyectos</h2>
+
+          <!-- Carousel Bootstrap -->
+          <div
+            id="projectsCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- Proyecto 1 -->
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/1)celebrity.png"
+                        class="card-img-top"
+                        alt="Proyecto 1"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Página Celebridad</h5>
+                        <p class="card-text">
+                          Página básica en <strong>HMTL</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project1Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/2)formularioregistro.png"
+                        class="card-img-top"
+                        alt="Proyecto 2"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Formulario de Registro</h5>
+                        <p class="card-text">
+                          Ejemplo de formulario básico de registro con
+                          <strong>HTML</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project2Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/3)botonescss.png"
+                        class="card-img-top"
+                        alt="Proyecto 3"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Botones con estilo</h5>
+                        <p class="card-text">
+                          Botones con diferentes estilos usando
+                          <strong>CSS</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project3Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Proyecto 2 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/4)gatitos.png"
+                        class="card-img-top"
+                        alt="Proyecto 4"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Responsividad y Mobile first</h5>
+                        <p class="card-text">
+                          Ajuste de elementos en pantalla según resolución con
+                          <strong>CSS</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project4Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/5)skyp.png"
+                        class="card-img-top"
+                        alt="Proyecto 5"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Aerolínea SKYP</h5>
+                        <p class="card-text">
+                          Implementacion y uso de elementos
+                          <strong>Boostrap</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project5Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/6)Aerovia.png"
+                        class="card-img-top"
+                        alt="Proyecto 6"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Aerolínea Aerovia Express</h5>
+                        <p class="card-text">
+                          Ajuste de elementos en sitio web usando
+                          <strong>Boostrap</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project6Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Proyecto 3 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/7)AsistenteVirtual.png"
+                        class="card-img-top"
+                        alt="Proyecto 7"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Asistente Virtual con JavaScript
+                        </h5>
+                        <p class="card-text">
+                          Asistente virtual de servicio al cliente con
+                          <strong>JavaScript</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project7Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/8)CajeroAutomatico.png"
+                        class="card-img-top"
+                        alt="Proyecto 8"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Cajero Automático</h5>
+                        <p class="card-text">
+                          Demo de cajero automático usando
+                          <strong>JavaScript</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project8Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/9)TareasPendientes.png"
+                        class="card-img-top"
+                        alt="Proyecto 9"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Lista de tareas pendientes</h5>
+                        <p class="card-text">
+                          Manipulacion de <strong>DOM</strong> con
+                          <strong>JavaScript</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project9Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Proyecto 4 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/10)SkypJquery.png"
+                        class="card-img-top"
+                        alt="Proyecto 10"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Aerolínea SKYP</h5>
+                        <p class="card-text">
+                          Manipulacion de <strong>DOM</strong> usando a
+                          <strong>JavaScript</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project10Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img
+                        src="assets/img/11)DOM.png"
+                        class="card-img-top"
+                        alt="Proyecto 11"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Manipulacion de <strong>DOM</strong>
+                        </h5>
+                        <p class="card-text">
+                          Manipulacion de <strong>DOM</strong> con
+                          <strong>JavaScript</strong>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#project11Modal"
+                          >Ver más</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles del Carousel -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#projectsCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#projectsCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modales de Proyectos -->
+      <!-- Modal Proyecto 1 -->
+      <section>
+        <div
+          class="modal fade"
+          id="project1Modal"
+          tabindex="-1"
+          aria-labelledby="project1ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project1ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <!-- Contenido detallado del proyecto -->
+                  <img
+                    src="assets/img/1.1)celebrity.png"
+                    class="img-fluid mb-3"
+                    alt="Página Celebridad"
+                  />
+                </div>
+                <p class="text-justify">
+                  El proyecto trata de una página web sobre Leonardo da Vinci
+                  con un título, texto introductorio de su biografía, una imagen
+                  de su retrato, una sección sobre su juventud, descubrimientos
+                  técnicos, y un enlace para más información. También incluye
+                  enlaces a las biografías de Miguel Ángel y Rafael.
+                </p>
+
+                <!-- Ícono de GitHub -->
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/pagina_celebridad.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 2 -->
+        <div
+          class="modal fade"
+          id="project2Modal"
+          tabindex="-1"
+          aria-labelledby="project2ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project2ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/2)formularioregistro.png"
+                    class="img-fluid mb-3"
+                    alt="Formulario de Registro"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  El proyecto trata de una página web con un formulario básico,
+                  configurando los inputs de labels dependiendo del tipo de dato
+                  solicitado al usuario.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/formulario_de_registro.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 3 -->
+        <div
+          class="modal fade"
+          id="project3Modal"
+          tabindex="-1"
+          aria-labelledby="project3ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project3ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/3)botonescss.png"
+                    class="img-fluid mb-3"
+                    alt="Botones con estilo"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Este proyecto incluye un conjunto de botones estilizados
+                  utilizando solamente CSS. Los botones representan diferentes
+                  estilos, como primarios, secundarios, de éxito y de peligro,
+                  con efectos de hover.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/botones_con_estilo.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 4 -->
+        <div
+          class="modal fade"
+          id="project4Modal"
+          tabindex="-1"
+          aria-labelledby="project4ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project4ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/4)gatitos.png"
+                    class="img-fluid mb-3"
+                    alt="Proyecto Responsividad"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Este proyecto se centra en la responsividad y el diseño
+                  mobile-first. Incluye un sitio web que se adapta a diferentes
+                  tamaños de pantalla, garantizando una experiencia de usuario
+                  óptima tanto en dispositivos móviles como en pantallas
+                  grandes.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/responsividad_-_mobile_first.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 5 -->
+        <div
+          class="modal fade"
+          id="project5Modal"
+          tabindex="-1"
+          aria-labelledby="project5ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project5ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/5)skyp.png"
+                    class="img-fluid mb-3"
+                    alt="Proyecto Aerolínea SKYP"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Este proyecto muestra la implementación y uso de componentes
+                  de Bootstrap en el desarrollo de una página web para la
+                  Aerolínea SKYP. Incluye un diseño atractivo y funcional,
+                  utilizando grids y elementos interactivos que se adaptan a
+                  diferentes dispositivos.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a href="" target="_blank" class="btn-github">
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 6 -->
+        <div
+          class="modal fade"
+          id="project6Modal"
+          tabindex="-1"
+          aria-labelledby="project6ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project6ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/6)Aerovia.png"
+                    class="img-fluid mb-3"
+                    alt="Proyecto Aerovía Express"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Este proyecto corresponde al desarrollo de una página web para
+                  Aerovía Express, utilizando Bootstrap y otras tecnologías
+                  modernas para crear un sitio web funcional y atractivo. El
+                  diseño se enfoca en la usabilidad y la experiencia de usuario
+                  para clientes de aerolíneas.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/Aerovia_Express.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 7 -->
+        <div
+          class="modal fade"
+          id="project7Modal"
+          tabindex="-1"
+          aria-labelledby="project7ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project7ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/7)AsistenteVirtual.png"
+                    class="img-fluid mb-3"
+                    alt="Proyecto Asistente Virtual"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Este proyecto es un asistente virtual desarrollado con
+                  JavaScript, que simula una interacción automatizada con un
+                  usuario. El asistente puede responder a diferentes comandos
+                  predefinidos y proporciona una interfaz sencilla pero efectiva
+                  para mejorar la experiencia del usuario en el sitio web.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/asistente_virtual_JS.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 8 -->
+        <div
+          class="modal fade"
+          id="project8Modal"
+          tabindex="-1"
+          aria-labelledby="project8ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project8ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/8)CajeroAutomatico.png"
+                    class="img-fluid mb-3"
+                    alt="Proyecto Cajero Automático"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Este proyecto es una simulación de un cajero automático
+                  desarrollado en JavaScript. Los usuarios pueden realizar
+                  varias transacciones como retirar dinero, realizar depósitos y
+                  consultar su saldo. El cajero interactúa con el usuario de
+                  manera sencilla a través de una interfaz gráfica básica.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/cajero_automatici_JS.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 9 -->
+        <div
+          class="modal fade"
+          id="project9Modal"
+          tabindex="-1"
+          aria-labelledby="project9ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project9ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/9)TareasPendientes.png"
+                    class="img-fluid mb-3"
+                    alt="Proyecto Lista de Tareas Pendientes"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Este proyecto consiste en una lista de tareas pendientes,
+                  implementada utilizando JavaScript para manipular el DOM. Los
+                  usuarios pueden añadir, eliminar y marcar tareas como
+                  completadas, todo desde una interfaz interactiva y dinámica.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/tareas_pendientes.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 10 -->
+        <div
+          class="modal fade"
+          id="project10Modal"
+          tabindex="-1"
+          aria-labelledby="project10ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project10ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/10)SkypJquery.png"
+                    class="img-fluid mb-3"
+                    alt="Proyecto Aerolínea SKYP"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Este proyecto corresponde al desarrollo de una página web para
+                  la Aerolínea SKYP, utilizando jQuery y Bootstrap para crear
+                  una interfaz moderna e interactiva. Se enfoca en la
+                  responsividad y la experiencia del usuario, optimizando la
+                  navegación en dispositivos móviles y de escritorio.
+                </p>
+
+                <!-- Ícono de GitHub personalizado con efecto hover -->
+                <div class="text-center mt-4">
+                  <a
+                    href="https://github.com/nietoefrain/aerolinea_skyp.git"
+                    target="_blank"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Proyecto 11 -->
+        <div
+          class="modal fade"
+          id="project11Modal"
+          tabindex="-1"
+          aria-labelledby="project11ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title text-center w-100"
+                  id="project11ModalLabel"
+                >
+                  Detalles del Proyecto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Imagen centrada -->
+                <div class="text-center">
+                  <img
+                    src="assets/img/guest.png"
+                    class="img-fluid mb-3"
+                    alt="Juego Adivinanza"
+                  />
+                </div>
+
+                <!-- Descripción del proyecto -->
+                <p class="text-justify">
+                  Juego de adivinanza básico para demostrar la manipulacion del
+                  <strong>DOM</strong>
+                </p>
+                <p align-text:center>¡Adivina un número entre 1 y 10!</p>
+                <input
+                  type="number"
+                  id="guessInput"
+                  class="form-control"
+                  placeholder="Introduce tu número"
+                  min="1"
+                  max="10"
+                />
+                <button id="guessButton" class="btn btn-primary mt-3">
+                  Adivinar
+                </button>
+
+                <!-- Elemento de feedback -->
+                <div id="feedback" class="mt-3 text-center"></div>
+
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Habilidades con Tarjetas y Efecto Hover -->
+      <section id="skills" class="p-5">
+        <div class="container">
+          <h2 class="text-center mb-5">Mis Habilidades</h2>
+          <div class="row text-center">
+            <!-- Tarjeta 1: HTML5 -->
+            <div class="col-md-3">
+              <div class="card skill-card">
+                <img
+                  src="assets/img/html5.png"
+                  class="card-img-top"
+                  alt="HTML5"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">HTML5</h5>
+                  <p class="card-text">
+                    Lenguaje de marcado para la creación de páginas web.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta 2: CSS3 -->
+            <div class="col-md-3">
+              <div class="card skill-card">
+                <img
+                  src="assets/img/css3.png"
+                  class="card-img-top"
+                  alt="CSS3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">CSS3</h5>
+                  <p class="card-text">
+                    Lenguaje de estilos utilizado para diseñar páginas web.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta 3: JavaScript -->
+            <div class="col-md-3">
+              <div class="card skill-card">
+                <img
+                  src="assets/img/javascript.png"
+                  class="card-img-top"
+                  alt="JavaScript"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript</h5>
+                  <p class="card-text">
+                    Lenguaje de programación para la web interactiva.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta 4: jQuery -->
+            <div class="col-md-3">
+              <div class="card skill-card">
+                <img
+                  src="assets/img/jquery.png"
+                  class="card-img-top"
+                  alt="jQuery"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">jQuery</h5>
+                  <p class="card-text">
+                    Biblioteca de JavaScript rápida y sencilla.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center p-5">
+      <!-- Sección de Contacto con Formulario -->
+      <section id="contact" class="p-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <h2 class="text-center mb-4">Contacto</h2>
+              <div
+                id="successAlert"
+                class="mt-3 text-center"
+                style="display: none"
+              >
+                <p class="text-muted">¡Gracias por tu mensaje!</p>
+              </div>
+              <form id="contactForm" class="p-4">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="firstName" class="form-label">Nombre</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="lastName" class="form-label">Apellido</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email *</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label"
+                    >Escribe un mensaje</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark w-100">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Script personalizado -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
